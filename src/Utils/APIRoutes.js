@@ -1,4 +1,4 @@
-export const host = "http://localhost:4000";
+export const host = "https://real-time-chat-app-backend-zx5b.onrender.com";
 export const registerroute = `${host}/api/auth/register`
 export const loginroute = `${host}/api/auth/login`
 export const setavtar = `${host}/api/auth/setavatar`
