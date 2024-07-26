@@ -1,0 +1,17 @@
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: black;
+    gap: 20px;
+}
+
+.title-container h1{
+    color: white;
+}
+
+
+.selected {
+    box-shadow: 0 0 10px #e700ff, 0 0 20px #e700ff, 0 0 30px #e700ff, 0 0 40px #e700ff;
+}

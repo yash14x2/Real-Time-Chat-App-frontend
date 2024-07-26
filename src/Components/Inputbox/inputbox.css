@@ -1,0 +1,95 @@
+.inputbox-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #000; /* Black background */
+    padding: 10px;
+  }
+  
+  .inputbox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .inputbox input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .inputbox .emoji-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .emoji-picker {
+    position: absolute;
+    bottom: 50px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    z-index: 1000;
+  }
+
+  .inputbox-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #000; /* Black background */
+    padding: 10px;
+  }
+  
+  .inputbox {
+    width: 888px ;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .inputbox input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #222; /* Dark background for input */
+    color: #fff; /* White text color */
+  }
+  
+  .inputbox .emoji-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 10px;
+    color: #fff; /* White text color */
+  }
+  
+  .emoji-picker {
+    position: absolute;
+    bottom: 50px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    z-index: 1000;
+  }
+  .inputbox-container{
+    height: 10%;
+    margin-top: 33%;
+    width: 10%;
+
+  }  
+
+  .inputform{
+    position: absolute;
+    width: 555px;
+    left: -800px;
+  }

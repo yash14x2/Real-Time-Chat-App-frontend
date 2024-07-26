@@ -1,0 +1,39 @@
+.chat-container {
+    display: flex;
+    width: 71%;
+    flex-direction: column;
+    padding: 10px;
+    height: calc(100vh - 100px); /* Adjust based on your layout */
+    overflow-y: auto;
+  }
+  
+  .message {
+    display: flex;
+    margin: 5px 0;
+  }
+  
+  .message-left {
+    justify-content: flex-start;
+  }
+  
+  .message-right {
+    justify-content: flex-end;
+  }
+  
+  .message p {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+    word-wrap: break-word;
+  }
+  
+  .message-left p {
+    background-color: #e0e0e0; /* Light background for received messages */
+    color: black;
+  }
+  
+  .message-right p {
+    background-color: #0084ff; /* Blue background for sent messages */
+    color: white;
+  }
+  

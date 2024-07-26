@@ -1,0 +1,152 @@
+.chat-board {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .contacts-list {
+   
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+  }
+  
+  .contact-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .current-user {
+    background-color: #000;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chat-board {
+    display: flex;
+    height: 100vh;
+    background-color: #000; /* Black background for the whole board */
+    color: #fff; /* White text color */
+  }
+  
+  .contacts-list {
+    width: 250px; /* Adjust width as needed */
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #000; /* Black background */
+    border-right: 1px solid #333; /* Dark border to separate contact list */
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+  }
+  
+  .contact-item:hover {
+    border: 2px solid #0ff; /* Neon color border on hover */
+  }
+  
+  .avatar {
+    height: 50px; /* Adjust avatar size as needed */
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .username {
+    font-size: 16px; /* Adjust text size as needed */
+  }
+  
+  .chat-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .current-chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .current-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #333; /* Dark border to separate current user section */
+    padding: 20px;
+  }
+  
+  .current-user .avatar {
+    height: 120px; /* Larger avatar for current user */
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .current-user .username {
+    font-size: 18px; /* Larger text size for current user */
+  }
+  
+  .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #333; /* Dark border to separate input box */
+  }
+  
+  .input-box input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #222; /* Dark background for input */
+    color: #fff; /* White text color */
+  }
+  
+
+  .currentchat{
+    width: 100%;
+    display: flex;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+
+  .username{
+    margin-top: 14px;
+    height: 20px;
+  }
+  .main-container {
+    display: flex;
+    height: 73%;
+}
+
+.currenchatwelcome{
+    display: block;
+    position: relative;
+    left: 28%;
+}
+.currenchatwelcome h3{
+    position: absolute;
+    top: 73%;
+    left: 34%;
+}
+button.logout-button{
+    position: relative;
+    left: 80%;
+    height: 40px;
+}
